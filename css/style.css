@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-cabecalho{
+    width: 80px;
+    margin-right: 30px;
+}
+
+.botao-cabecalho{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+.botao-cabecalho:hover{
+    color: rgb(9, 113, 3);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.botao-encontre-uma-loja{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.botao-encontre-uma-loja:hover{
+    color: rgb(9, 113, 3);
+}
+
+.botao-entrar{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.botao-entrar:hover{
+    background-color: black;
+    color: white;
+}
+
+.botao-participe-agora{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.botao-participe-agora:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.cabecalho2{
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.img1 > img {
+    width:  100%;
+}
+
+hr{
+    background-color: rgb(213, 213, 213);
+    height: 2px;
+    border: transparent;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.saiba-mais{
+    padding: 25px;
+    background-color: #d4e9e2;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao-saiba-mais{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.botao-saiba-mais:hover{
+    background-color: black;
+    color: white;
+}
+
+.img-esquerda{
+    width: 720px;
+    height: 720px;
+}
+
+.baixar-app{
+    background-color: #d4e9e2;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.texto1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.botao-app{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.botao-app:hover{
+    background-color: black;
+    color: white;
+}
+
+.pausa{
+    background-color: #d4e9e2;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-direita{
+    width: 720px;
+}
+
+.texto2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodape{
+    display: flex;
+    margin-top: 10px;
+}
+
+.rodape > ul{
+    margin-left: 60px;
+}
+
+.linha > ul > li{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.icons{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icons2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icons2 > p{
+    font-size: 10px;
+}
+
+.rodape2{
+    text-decoration: none;
+    color: black;
+}
+
+.rodape2:hover{
+    color: rgb(172, 172, 172);
+}
